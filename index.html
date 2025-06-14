@@ -2,48 +2,59 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css" />
-    <title>Trabalho prático</title>
+    <title>Meu trabalho</title>
   </head>
   <body>
+
+    <div class="conteudo">
     <h1>Bruno Azevedo</h1>
     <p>
-      Meu nome é Bruno, tenho 19 anos e atualmente moro em uma cidade chamada
+      Meu nome é <b>Bruno Azevedo</b>, tenho 19 anos e atualmente moro em uma cidade chamada
       Ararendá, no interior do Ceará. Sou muito interessado em assuntos
       relacionados à tecnologia e também gosto bastante de esportes e jogos.
     </p>
-    <nav class="lista">
-        <ul>
-            <li>Praticar atividades físicas</li>
-            <li>Cozinhar</li>
-            <li>Escutar música</li>
-        </ul>
-    </nav>
-    <table class="paises">
-        <caption>Países que desejo visitar</caption>
-        <thead>
-            <tr>
-                <th>Paises</th>
-                <th>Imagem</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Estados Unidos</td>
-                <td><img src="assets/usa.png" alt="Bandeira do USA"></td>
-            </tr>
-            <tr>
-                <td>Espanha</td>
-                <td><img src="assets/espanha.png" alt="Bandeira da Espanha"></td>
-            </tr>
-            <tr>
-                <td>República Dominicana</td>
-                <td><img src="assets/rd.png" alt="Bandeira da Republica Dominicana"></td>
-            </tr>
-        </tbody>
-        <a>
-            <a href="https://www.youtube.com/@matheuslf" target="_blank" rel="noopener noreferrer">Meu canal favorito</a>
-        </a>
-  </body>
+    <h3>MEUS HOBBIES</h3>
+    <ul>
+        <li class="hobby">Praticar Atividade Física</li>
+        <li class="hobby">Cozinhar</li>
+        <li class="hobby">Escutar música</li>
+    </ul>
+    <img src="assets/atividadefisica.png" alt="atividadeFisica" width="250" class="atividade">
+
+    <table class="tabela">
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td>
+                <img src="assets/usa.png" alt="Bandeira USA" width="100" class="bandeira">
+            </td>
+        </tr>
+        <tr>
+            <td>Espanha</td>
+            <td>
+                <img src="assets/espanha.png" alt="Bandeira ESPANHA" width="100" class="bandeira">
+            </td>
+        </tr>
+        <tr>
+            <td>Republica Dominicana</td>
+            <td>
+                <img src="assets/rd.png" alt="Bandeira RD" width="100" class="bandeira">
+            </td>
+        </tr>
+    </table>
+    
+    <a href="https://www.youtube.com/@matheuslf" target="_blank" rel="noopener noreferrer" class="site">Meu canal favorito</a>
+
+    <button onclick="mostrarMensagem()" class="botao">Clique para ver uma mensagem!</button>
+
+    <p id="mensagem" class="oculto">Bem vindo(a) ao meu site!</p>
+
+    <script src="main.js"></script>
+  </div>
+</body>
 </html>
